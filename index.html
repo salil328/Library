@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<script src="Library.js"></script>
+<h1 class="heading">Library </h1>
+
+<table>
+    <tr>
+        
+            <form onsubmit="event.preventDefault()" autocomplete="off">
+               <div>
+                <label>Title</label>
+                <input type="text" name="title" id="title" >
+            </div><br>
+          <div>
+                <label >Gener</label>
+                <input type="text" name="gener" id="gener">
+            </div><br>
+             <div>
+                <label>Quantity</label>
+                <input type="number" name="quantity" id="quantity">
+            </div><br>
+            <div class="form-action-buttons">
+              <!--  <input type="submit" value="Submit"> -->                
+              <button type="submit" onclick = "formsubmit()">Submit</button>
+            </div></form><br>
+        </form>
+        </td>
+    </tr> 
+</table>
+<table class="List" id="librarylist">
+<thead>
+    <tr>
+        <th>Title</th>
+        <th>Gener</th>
+        <th>Quantity</th>
+    </tr>
+</thead>
+
+</table>
+</body>
+</html>
