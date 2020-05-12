@@ -6,9 +6,9 @@ formsubmit()
 
 // const readdata = ()=>{
 //     var formdata = {
-//      "Title": document.getElementById("Title").value, 
-//       "Gener": document.getElementById("Gener").value,
-//        "Quantity" : document.getElementById("Quantity").value
+//      "title": document.getElementById("title").value, 
+//       "gener": document.getElementById("gener").value,
+//        "quantity" : document.getElementById("quantity").value
       
 //     }
 //     console.log(formdata)
